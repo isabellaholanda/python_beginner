@@ -13,7 +13,6 @@ count_bidders = 0
 while auction_active:
     name = input("What is your name?: ")
     bid = int(input("What is your bid?: $"))
-    count_bidders += 1
 
     auction_list[name] = bid
 
